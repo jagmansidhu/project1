@@ -47,13 +47,13 @@ public class App
     {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Input Currency");
+        System.out.print("Input Currency: ");
         String in = input.nextLine();
 
-        System.out.print("Output Currency");
+        System.out.print("Output Currency: ");
         String out = input.nextLine();
 
-        System.out.print("Output Currency");
+        System.out.print("Amount Exchange: ");
         double amnt = input.nextInt();
 
         convert(in, out, amnt);
